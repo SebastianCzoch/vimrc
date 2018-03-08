@@ -8,7 +8,6 @@ Plug 'unblevable/quick-scope'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale'
-Plug 'prabirshrestha/asyncomplete.vim'
 Plug 'nanotech/jellybeans.vim'
 
 " Raml
@@ -32,4 +31,5 @@ Plug 'prabirshrestha/async.vim'
 Plug 'prabirshrestha/asyncomplete-file.vim'
 Plug 'prabirshrestha/asyncomplete-flow.vim'
 Plug 'prabirshrestha/asyncomplete-gocode.vim'
+Plug 'prabirshrestha/asyncomplete-buffer.vim'
 Plug 'prabirshrestha/asyncomplete.vim'
