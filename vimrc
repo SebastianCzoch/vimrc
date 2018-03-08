@@ -50,6 +50,7 @@ set pastetoggle=<F2>
 " highlight current line
 set cursorline
 set tabstop=4
+
 colorscheme jellybeans
 
 """""""""""""""""""""""""""""""""""""""""""

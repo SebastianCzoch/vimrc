@@ -10,8 +10,15 @@ Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale'
 Plug 'nanotech/jellybeans.vim'
 
+" Git
+Plug 'airblade/vim-gitgutter'
+Plug 'Xuyuanp/nerdtree-git-plugin'
+
 " Raml
 Plug 'IN3D/vim-raml', {'for': 'raml'}
+
+" Tick
+Plug 'nathanielc/vim-tickscript', {'for': 'tick', 'do': ':TickInstallBinaries'}
 
 " Go
 Plug 'fatih/vim-go', {'for': 'go', 'do': ':GoInstallBinaries'}
