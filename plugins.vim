@@ -7,18 +7,12 @@ Plug 'nathanaelkane/vim-indent-guides'
 Plug 'unblevable/quick-scope'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
-Plug 'w0rp/ale'
+Plug 'w0rp/ale', {'tag':'v1.7.1'}
 Plug 'nanotech/jellybeans.vim'
 
 " Git
 Plug 'airblade/vim-gitgutter'
 Plug 'Xuyuanp/nerdtree-git-plugin'
-
-" Raml
-Plug 'IN3D/vim-raml', {'for': 'raml'}
-
-" Tick
-Plug 'nathanielc/vim-tickscript', {'for': 'tick', 'do': ':TickInstallBinaries'}
 
 " Go
 Plug 'fatih/vim-go', {'for': 'go', 'do': ':GoInstallBinaries'}

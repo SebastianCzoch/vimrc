@@ -65,25 +65,11 @@ nnoremap r :redo<cr>
 " Map the new <leader>
 let mapleader = ','
 
-" Buffers from other programs (Ctrl+c and Ctrl+v)
-nnoremap <leader>p "+gp
-nnoremap <leader>y "+yy
-
-vnoremap <leader>y "+y
-vnoremap <leader>p "+gp
-
-" Select all. Same as Ctrl+a
-nnoremap <leader>a ggVG
-
-" Moving between buffers 
+" Moving between buffers
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
-
-" Moving between tabs
-nnoremap tl gt
-nnoremap th gT
 
 nnoremap <C-e> :NERDTreeToggle<cr>
 
