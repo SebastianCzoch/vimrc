@@ -51,7 +51,7 @@ set pastetoggle=<F2>
 set cursorline
 set tabstop=4
 
-colorscheme jellybeans
+colorscheme visualstudio
 
 """""""""""""""""""""""""""""""""""""""""""
 " MAPPING

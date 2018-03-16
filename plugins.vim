@@ -8,7 +8,6 @@ Plug 'unblevable/quick-scope'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale', {'tag':'v1.7.1'}
-Plug 'nanotech/jellybeans.vim'
 
 " Git
 Plug 'airblade/vim-gitgutter'
@@ -16,10 +15,6 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Go
 Plug 'fatih/vim-go', {'for': 'go', 'do': ':GoInstallBinaries'}
-
-" Rust
-Plug 'racer-rust/vim-racer', {'for': 'rust'}
-Plug 'rust-lang/rust.vim', {'for': 'rust'}
 
 " HTML
 Plug 'othree/html5.vim', {'for': 'html'}
