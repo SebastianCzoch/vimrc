@@ -8,6 +8,7 @@ Plug 'unblevable/quick-scope'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale', {'tag':'v1.7.1'}
+Plug 'morhetz/gruvbox'
 
 " Git
 Plug 'airblade/vim-gitgutter'

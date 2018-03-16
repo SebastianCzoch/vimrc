@@ -51,7 +51,8 @@ set pastetoggle=<F2>
 set cursorline
 set tabstop=4
 
-colorscheme visualstudio
+set background=dark
+colorscheme gruvbox
 
 """""""""""""""""""""""""""""""""""""""""""
 " MAPPING
