@@ -64,7 +64,7 @@ nnoremap ; :
 nnoremap r :redo<cr>
 
 " Map the new <leader>
-let mapleader = ','
+let mapleader = 'z'
 
 " Moving between buffers
 nnoremap <C-j> <C-w>j
