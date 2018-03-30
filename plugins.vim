@@ -22,11 +22,8 @@ Plug 'othree/html5.vim', {'for': 'html'}
 
 " JS
 Plug 'pangloss/vim-javascript', {'for': 'javascript'}
+Plug 'flowtype/vim-flow', {'for': 'javascript'}
 
 " Autocompletion
-Plug 'prabirshrestha/async.vim'
-Plug 'prabirshrestha/asyncomplete-file.vim'
-Plug 'prabirshrestha/asyncomplete-flow.vim'
-Plug 'prabirshrestha/asyncomplete-gocode.vim'
-Plug 'prabirshrestha/asyncomplete-buffer.vim'
-Plug 'prabirshrestha/asyncomplete.vim'
+Plug 'Valloric/YouCompleteMe'
+
