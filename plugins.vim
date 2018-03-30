@@ -18,6 +18,7 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 
 " Go
 Plug 'fatih/vim-go', {'for': 'go', 'do': ':GoInstallBinaries'}
+Plug 'Blackrush/vim-gocode'
 
 " Rust
 Plug 'racer-rust/vim-racer'
