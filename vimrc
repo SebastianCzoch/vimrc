@@ -53,7 +53,7 @@ set tabstop=4
 
 set background=dark
 colorscheme gruvbox
-
+filetype plugin on
 """""""""""""""""""""""""""""""""""""""""""
 " MAPPING
 """""""""""""""""""""""""""""""""""""""""""

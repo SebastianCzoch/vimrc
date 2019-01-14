@@ -33,3 +33,8 @@ Plug 'flowtype/vim-flow', {'for': 'javascript'}
 " Autocompletion
 Plug 'Valloric/YouCompleteMe'
 
+" Python
+Plug 'nvie/vim-flake8', {'for': 'python'}
+
+" Ansible
+Plug 'pearofducks/ansible-vim'
