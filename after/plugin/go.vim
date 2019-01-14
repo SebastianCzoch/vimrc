@@ -11,7 +11,6 @@ let g:go_highlight_build_constraints = 1
 let g:go_autodetect_gopath = 1
 
 let g:go_fmt_command = "goimports"
-set completeopt-=preview
 
 augroup gomap
     au FileType go nmap <buffer> <localleader>ir :GoRename<CR>
