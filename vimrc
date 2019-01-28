@@ -1,3 +1,4 @@
+" Plug
 let s:vimdir = fnamemodify($MYVIMRC, ':p:h') " Not necessarily correct
 if empty(glob(s:vimdir . '/autoload/plug.vim'))
       execute 'silent !curl -fsLo ' s:vimdir . '/autoload/plug.vim --create-dirs' 'https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
@@ -32,8 +33,6 @@ set expandtab
 set smarttab
 set shiftwidth=2
 set softtabstop=2
-" mouse support
-set mouse=a
 " line numbers
 set number
 " ignore case and smartcase
@@ -52,7 +51,9 @@ set cursorline
 set tabstop=4
 
 set background=dark
-colorscheme gruvbox
+colorscheme Tomorrow-Night
+syntax enable
+let macvim_skip_colorscheme = 1
 filetype plugin on
 """""""""""""""""""""""""""""""""""""""""""
 " MAPPING

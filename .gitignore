@@ -1,3 +1,5 @@
 /plugins
 /autoload
 /.vim
+
+/black

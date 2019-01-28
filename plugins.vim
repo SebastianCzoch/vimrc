@@ -1,16 +1,19 @@
 Plug 'scrooloose/nerdtree'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'editorconfig/editorconfig-vim'
-Plug 'haya14busa/is.vim'
-Plug 'jreybert/vimagit'
 Plug 'nathanaelkane/vim-indent-guides'
-Plug 'unblevable/quick-scope'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale'
-Plug 'morhetz/gruvbox'
-Plug 'ctrlpvim/ctrlp.vim'
 Plug 'scrooloose/nerdcommenter'
+
+" Autocompletion
+Plug 'Shougo/deoplete.nvim'
+Plug 'roxma/nvim-yarp'
+Plug 'roxma/vim-hug-neovim-rpc'
+
+" Theme
+Plug 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
 " Git
 Plug 'airblade/vim-gitgutter'
@@ -20,21 +23,17 @@ Plug 'Xuyuanp/nerdtree-git-plugin'
 Plug 'fatih/vim-go', {'for': 'go', 'do': ':GoInstallBinaries'}
 Plug 'Blackrush/vim-gocode'
 
-" Rust
-Plug 'racer-rust/vim-racer'
-
-" HTML
-Plug 'othree/html5.vim', {'for': 'html'}
-
 " JS
 Plug 'pangloss/vim-javascript', {'for': 'javascript'}
 Plug 'flowtype/vim-flow', {'for': 'javascript'}
 
-" Autocompletion
-Plug 'Valloric/YouCompleteMe'
-
 " Python
-Plug 'nvie/vim-flake8', {'for': 'python'}
+Plug 'ambv/black', {'for': 'python'}
 
 " Ansible
 Plug 'pearofducks/ansible-vim'
+
+" Terraform
+Plug 'hashivim/vim-terraform'
+Plug 'juliosueiras/vim-terraform-completion'
+
