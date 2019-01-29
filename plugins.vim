@@ -6,6 +6,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 Plug 'w0rp/ale'
 Plug 'scrooloose/nerdcommenter'
+Plug 'rhysd/vim-healthcheck'
 
 " Autocompletion
 Plug 'Shougo/deoplete.nvim'
@@ -35,5 +36,5 @@ Plug 'pearofducks/ansible-vim'
 
 " Terraform
 Plug 'hashivim/vim-terraform'
-Plug 'juliosueiras/vim-terraform-completion'
+Plug 'juliosueiras/vim-terraform-completion', {'commit': '6969cc8bf33d16e9920a5a7e9e2581ba4a397fee'}
 
