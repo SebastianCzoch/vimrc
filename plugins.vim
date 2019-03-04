@@ -36,4 +36,3 @@ Plug 'pearofducks/ansible-vim'
 
 " Terraform
 Plug 'hashivim/vim-terraform'
-

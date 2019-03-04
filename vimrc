@@ -49,7 +49,6 @@ set pastetoggle=<F2>
 " highlight current line
 set cursorline
 set tabstop=4
-
 set background=dark
 colorscheme Tomorrow-Night
 syntax enable
