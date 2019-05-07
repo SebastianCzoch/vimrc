@@ -8,9 +8,7 @@ Plug 'w0rp/ale'
 Plug 'scrooloose/nerdcommenter'
 
 " Autocompletion
-Plug 'Shougo/deoplete.nvim'
-Plug 'roxma/nvim-yarp'
-Plug 'roxma/vim-hug-neovim-rpc'
+Plug 'valloric/youcompleteme'
 
 " Theme
 Plug 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
