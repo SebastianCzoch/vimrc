@@ -58,7 +58,6 @@ filetype plugin on
 """""""""""""""""""""""""""""""""""""""""""
 " MAPPING
 """""""""""""""""""""""""""""""""""""""""""
-
 nnoremap ; :
 
 " Redo
@@ -73,6 +72,12 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-h> <C-w>h
 nnoremap <C-l> <C-w>l
 
-nnoremap <C-e> :NERDTreeToggle<cr>
+" Copy to system clipboard
+vnoremap [ "+y
+nnoremap ] "+P
 
+nnoremap <C-e> :NERDTreeToggle<cr>
+nnoremap <C-t> :Tabularize / \+<CR>
+
+command! TrimWhitespace %s/\s\+$//e
 
